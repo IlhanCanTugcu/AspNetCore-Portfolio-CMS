@@ -1,0 +1,59 @@
+﻿@using EntityLayer.Concrete
+@model List<Message>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+	<div class="card">
+		<div class="card-body">
+
+			<h4 class="card-title">Gelen Mesajlar</h4>
+
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Gönderim Tarihi</th>
+							<th>Gönderen Adı</th>
+							<th>Gönderen Mail</th>
+							<th>Mesaj</th>
+							<th>Durum</th>
+							<th>Sil</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var item in Model)
+						{
+							<tr>
+								<td>@item.MessageID</td>
+								<td>@item.Date</td>
+								<td>@item.Name</td>
+								<td>@item.Mail</td>
+								<td class="text-wrap" style="max-width: 300px; word-wrap: break-word">@item.Content</td>
+
+								<td>
+									@if (item.Status)
+									{
+										<a href="/Message/ChangeStatus/@item.MessageID" class="btn btn-outline-danger btn-sm">Okunmadı</a>
+									}
+									else
+									{
+										<a href="/Message/ChangeStatus/@item.MessageID" class="btn btn-outline-success btn-sm">Okundu</a>
+									}
+
+								</td>
+
+								<td><a href="/Message/DeleteMessage/@item.MessageID" class="btn btn-outline-danger" onclick="return confirm('Mesajı silmek istediğinize emin misiniz?')">Sil</a></td>
+							</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+

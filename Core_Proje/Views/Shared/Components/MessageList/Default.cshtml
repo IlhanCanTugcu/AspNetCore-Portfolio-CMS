@@ -1,0 +1,35 @@
+﻿@using EntityLayer.Concrete
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@model List<Message>
+
+<div class="col-md-12 grid-margin stretch-card">
+	<div class="card">
+		<div class="card-body">
+			<div class="d-flex flex-row justify-content-between">
+				<h4 class="card-title">Mesajlar</h4>
+				<a href="/Message/Index" class="text-muted">Tümünü Gör</a>
+			</div>
+			<div class="preview-list">
+				@foreach (var item in Model)
+				{
+					<div class="preview-item border-bottom">
+						<div class="preview-thumbnail">
+							<div class="preview-icon bg-success rounded-circle">
+								<i class="mdi mdi-account-circle"></i>
+							</div>
+						</div>
+						<div class="preview-item-content d-flex flex-grow">
+							<div class="flex-grow">
+								<div class="d-flex d-md-block d-xl-flex justify-content-between">
+									<h6 class="preview-subject">@item.Name</h6>
+									<p class="text-muted text-small">@item.Date</p>
+								</div>
+								<p class="text-muted">@item.Content</p>
+							</div>
+						</div>
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+</div>

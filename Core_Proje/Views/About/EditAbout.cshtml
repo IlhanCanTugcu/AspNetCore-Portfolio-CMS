@@ -1,0 +1,60 @@
+﻿@model EntityLayer.Concrete.About
+@{
+    ViewData["Title"] = "EditAbout";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="card shadow">
+    <div class="card-header border-0">
+        <h3 class="mb-0">Hakkımda Düzenleme Sayfası</h3>
+    </div>
+    <div class="card-body">
+
+        <form method="post">
+
+            @Html.HiddenFor(x => x.AboutID)
+
+            <div class="form-group">
+                <label class="form-control-label">Ad Soyad</label>
+                <input type="text" class="form-control" asp-for="Title">
+            </div>
+
+            <div class="form-group">
+                <label class="form-control-label">Açıklama</label>
+                <textarea class="form-control" rows="3" asp-for="Description"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label class="form-control-label">Yaş</label>
+                <input type="text" class="form-control" asp-for="Age">
+            </div>
+
+            <div class="form-group">
+                <label class="form-control-label">Mail</label>
+                <input type="text" class="form-control" asp-for="Mail">
+            </div>
+
+            <div class="form-group">
+                <label class="form-control-label">Telefon</label>
+                <input type="text" class="form-control" asp-for="Phone">
+            </div>
+
+            <div class="form-group">
+                <label class="form-control-label">Adres</label>
+                <input type="text" class="form-control" asp-for="Address">
+            </div>
+
+            <div class="form-group">
+                <label class="form-control-label">Resim Yolu</label>
+                <input type="text" class="form-control" asp-for="ImageUrl">
+            </div>
+
+            <button type="submit" class="btn btn-success">Güncelle</button>
+            <a href="/Default/Index" class="btn btn-secondary">İptal</a>
+
+        </form>
+    </div>
+</div>
+
+
+
