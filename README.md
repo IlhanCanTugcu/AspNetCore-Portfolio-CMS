@@ -54,3 +54,51 @@ Core_Proje
 ├── DataAccessLayer     # Veritabanı Bağlantısı (Context), Migrations ve Repository Kodları
 ├── EntityLayer         # Veritabanı Tablo Karşılıkları (Concrete Sınıflar - POCO)
 └── Core_Proje (UI)     # Kullanıcı Arayüzü (Controllers, Views, ViewComponents, wwwroot)
+
+---
+
+## 🚀 Kurulum ve Çalıştırma
+
+Projeyi yerel makinenizde çalıştırmak için şu adımları izleyin:
+
+1.  **Projeyi Klonlayın:**
+    ```bash
+    git clone [https://github.com/IlhanCanTugcu/Core_Proje.git](https://github.com/IlhanCanTugcu/Core_Proje.git)
+    ```
+2.  **Veritabanı Ayarı:**
+    `DataAccessLayer/Concrete/Context.cs` dosyasını açın. OnConfiguring metodu içindeki Server bilgisini kendi SQL Server adınıza göre düzenleyin.
+3.  **Veritabanını Oluşturun (Migration):**
+    Visual Studio'da **Package Manager Console**'u açın ve şu komutu çalıştırın:
+    ```bash
+    update-database
+    ```
+4.  **Projeyi Çalıştırın:**
+    Visual Studio üzerinden `Ctrl + F5` yaparak projeyi ayağa kaldırın.
+
+---
+
+## 📸 Ekran Görüntüleri
+
+Projenin çalışan haline ait görüntüler aşağıdadır:
+
+| Vitrin (Ana Sayfa) | Admin Dashboard (Koyu Tema) |
+| :---: | :---: |
+| ![Vitrin](screenshots/vitrin.png) | ![Dashboard](screenshots/dashboard.png) |
+
+| Deneyim Yönetimi (CRUD) | Gelen Mesaj Listesi |
+| :---: | :---: |
+| ![CRUD](screenshots/deneyim-listesi.png) | ![API](screenshots/mesaj-listesi.png) |
+
+---
+
+## 👨‍💻 Geliştirici
+
+**İlhan Can Tuğcu** *Bilgisayar Mühendisliği Öğrencisi*
+
+Bu proje, **BTÜ-İMEP (İşletmede Mesleki Eğitim Programı)** kapsamında, kurumsal yazılım geliştirme standartlarını öğrenmek ve uygulamak amacıyla geliştirilmiştir.
+
+* [LinkedIn Profilim](http://linkedin.com/in/ilhan-can-tu%C4%9Fcu)
+* [GitHub Profilim](https://github.com/IlhanCanTugcu)
+
+---
+*© 2025 İlhan Can Tuğcu - Tüm Hakları Saklıdır.*
