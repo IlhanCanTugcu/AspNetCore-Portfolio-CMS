@@ -45,7 +45,7 @@ Bu projede **Spaghetti Code** yapısından kaçınılmış, sürdürülebilir, t
 * **Dinamik Sidebar:** Bulunulan sayfaya göre sol menüdeki ilgili sekmenin otomatik olarak aktif (Active Class) olması.
 
 ---
-
+```text
 ## 📂 Proje Klasör Yapısı (N-Katmanlı)
 
 
@@ -54,7 +54,7 @@ Core_Proje
 ├── DataAccessLayer     # Veritabanı Bağlantısı (Context), Migrations ve Repository Kodları
 ├── EntityLayer         # Veritabanı Tablo Karşılıkları (Concrete Sınıflar - POCO)
 └── Core_Proje (UI)     # Kullanıcı Arayüzü (Controllers, Views, ViewComponents, wwwroot)
-
+```
 ---
 
 ## 🚀 Kurulum ve Çalıştırma
@@ -85,9 +85,13 @@ Projenin çalışan haline ait görüntüler aşağıdadır:
 | :---: | :---: |
 | ![Vitrin](screenshots/vitrin.png) | ![Dashboard](screenshots/dashboard.png) |
 
-| Deneyim Yönetimi (CRUD) | Gelen Mesaj Listesi |
+| Deneyim Yönetimi (CRUD) | Deneyim Yönetimi (CRUD) |
 | :---: | :---: |
-| ![CRUD](screenshots/deneyim-listesi.png) | ![API](screenshots/mesaj-listesi.png) |
+| ![CRUD](screenshots/yetenek-deneyim.png) | ![API](screenshots/deneyim-listesi.png) |
+
+| İletişim Sayfası | Gelen Mesaj Listesi |
+| :---: | :---: |
+| ![CRUD](screenshots/iletisim.png) | ![API](screenshots/mesaj-listesi.png) |
 
 ---
 
