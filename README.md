@@ -4,9 +4,6 @@ Bu proje, **ASP.NET Core 8.0** teknolojisi ve **N-Katmanlı Mimari (N-Tier Archi
 
 Proje, kişisel bir portfolyo sitesi olmanın ötesinde, içeriklerin kod yazmaya gerek kalmadan yönetilebildiği kapsamlı bir **CMS (İçerik Yönetim Sistemi)** niteliğindedir.
 
-![Proje Ana Görseli](https://github.com/IlhanCanTugcu/Core_Proje/blob/main/wwwroot/proje-gorseli.png?raw=true)
-*(Not: Buraya projenin ana sayfasının veya dashboard'un güzel bir ekran görüntüsünü ekleyebilirsin)*
-
 ---
 
 ## 🏗️ Mimari ve Kullanılan Teknolojiler
@@ -39,7 +36,7 @@ Bu projede **Spaghetti Code** yapısından kaçınılmış, sürdürülebilir, t
 
 ### ⚙️ Yönetim Paneli (Admin Dashboard)
 * **Dashboard İstatistikleri:** Toplam yetenek sayısı, okunmamış mesajlar, tamamlanan projeler ve **staj bitimine kalan gün sayacı** gibi canlı veriler.
-* **Canlı Döviz Kurları:** JSON ve XML API entegrasyonu ile anlık Dolar, Euro, Gram Altın ve Çeyrek Altın fiyatlarının çekilmesi.
+* **Canlı Döviz Kurları:** JSON ve XML API entegrasyonu ile anlık kur fiyatlarının çekilmesi.
 * **CRUD İşlemleri:**
     * **Yetenekler (Skills):** Başlık ve yüzdelik oran (Progress Bar) yönetimi.
     * **Deneyimler (Experience):** Şirket adı, tarih, açıklama ve **görsel yükleme (Image Upload)** işlemleri.
