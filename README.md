@@ -93,6 +93,10 @@ Projenin çalışan haline ait görüntüler aşağıdadır:
 | :---: | :---: |
 | ![CRUD](screenshots/iletisim.png) | ![API](screenshots/mesaj-listesi.png) |
 
+| Yetenek Yönetimi (Admin CRUD) |
+| :---: | :---: |
+| ![CRUD](screenshots/yetenek.png) |
+
 ---
 
 ## 👨‍💻 Geliştirici
