@@ -81,9 +81,13 @@ Projeyi yerel makinenizde çalıştırmak için şu adımları izleyin:
 
 Projenin çalışan haline ait görüntüler aşağıdadır:
 
-| Vitrin (Ana Sayfa) | Admin Dashboard (Koyu Tema) |
+| Admin Dashboard | 
+| :---: |
+| ![Vitrin](screenshots/dashboard.png)|
+
+| Vitrin (Ana Sayfa) | Feature Düzenleme |
 | :---: | :---: |
-| ![Vitrin](screenshots/vitrin.png) | ![Dashboard](screenshots/dashboard.png) |
+| ![Vitrin](screenshots/vitrin.png) | ![Dashboard](screenshots/feature-düzenleme.png) |
 
 | Yetenek ve Deneyimler (Vitrin) | Deneyim Yönetimi (Admin CRUD) |
 | :---: | :---: |
@@ -93,9 +97,9 @@ Projenin çalışan haline ait görüntüler aşağıdadır:
 | :---: | :---: |
 | ![CRUD](screenshots/iletisim.png) | ![API](screenshots/mesaj-listesi.png) |
 
-| Yetenek Yönetimi (Admin CRUD) |
-| :---: |
-| ![CRUD](screenshots/yetenek.png) |
+| İletişim Formu (Vitrin) | Gelen Mesajlar (Admin) |
+| :---: | :---: |
+| ![CRUD](screenshots/iletisim.png) | ![API](screenshots/mesaj-listesi.png) |
 
 ---
 
