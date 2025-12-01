@@ -54,7 +54,7 @@ Core_Proje
 ├── DataAccessLayer     # Veritabanı Bağlantısı (Context), Migrations ve Repository Kodları
 ├── EntityLayer         # Veritabanı Tablo Karşılıkları (Concrete Sınıflar - POCO)
 └── Core_Proje (UI)     # Kullanıcı Arayüzü (Controllers, Views, ViewComponents, wwwroot)
-```
+
 ---
 
 ## 🚀 Kurulum ve Çalıştırma
@@ -76,7 +76,7 @@ Projeyi yerel makinenizde çalıştırmak için şu adımları izleyin:
     Visual Studio üzerinden `Ctrl + F5` yaparak projeyi ayağa kaldırın.
 
 ---
-
+```
 ## 📸 Ekran Görüntüleri
 
 Projenin çalışan haline ait görüntüler aşağıdadır:
@@ -85,11 +85,11 @@ Projenin çalışan haline ait görüntüler aşağıdadır:
 | :---: | :---: |
 | ![Vitrin](screenshots/vitrin.png) | ![Dashboard](screenshots/dashboard.png) |
 
-| Deneyim Yönetimi (CRUD) | Deneyim Yönetimi (CRUD) |
+| Yetenek ve Deneyimler (Vitrin) | Deneyim Yönetimi (Admin CRUD) |
 | :---: | :---: |
 | ![CRUD](screenshots/yetenek-deneyim.png) | ![API](screenshots/deneyim-listesi.png) |
 
-| İletişim Sayfası | Gelen Mesaj Listesi |
+| İletişim Formu (Vitrin) | Gelen Mesajlar (Admin) |
 | :---: | :---: |
 | ![CRUD](screenshots/iletisim.png) | ![API](screenshots/mesaj-listesi.png) |
 
