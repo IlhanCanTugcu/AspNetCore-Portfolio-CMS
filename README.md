@@ -94,7 +94,7 @@ Projenin çalışan haline ait görüntüler aşağıdadır:
 | ![CRUD](screenshots/yetenek-deneyim.png) | ![API](screenshots/deneyim-listesi.png) |
 
 | Yetenek Yönetimi (Admin) |
-| :---: | :---: |
+| :---: |
 | ![CRUD](screenshots/yetenek.png) |
 
 | İletişim Formu (Vitrin) | Gelen Mesajlar (Admin) |
