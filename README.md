@@ -48,7 +48,7 @@ Bu projede **Spaghetti Code** yapısından kaçınılmış, sürdürülebilir, t
 
 ## 📂 Proje Klasör Yapısı (N-Katmanlı)
 
-```text
+
 Core_Proje
 ├── BusinessLayer       # İş Kuralları, Validasyonlar ve Manager Sınıfları
 ├── DataAccessLayer     # Veritabanı Bağlantısı (Context), Migrations ve Repository Kodları
