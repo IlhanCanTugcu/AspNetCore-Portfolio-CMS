@@ -23,11 +23,6 @@ namespace Core_Proje.Controllers
         [HttpGet]
         public IActionResult EditAbout(int id)
         {
-            ViewBag.v1 = "Hakkımda Düzenleme";
-            ViewBag.v2 = "Hakkımda";
-            ViewBag.v3 = "Hakkımda Düzenleme";
-            ViewBag.link = "/Default/Index#about";
-
             var values = AboutManager.TGetByID(id);
             return View(values);
         }

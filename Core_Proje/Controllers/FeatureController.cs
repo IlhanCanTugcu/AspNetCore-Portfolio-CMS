@@ -22,11 +22,6 @@ namespace Core_Proje.Controllers
         [HttpGet]
         public IActionResult EditFeature(int id)
         {
-            ViewBag.v1 = "Öne Çıkanlar Düzenleme";
-            ViewBag.v2 = "Öne Çıkanlar";
-            ViewBag.v3 = "Öne Çıkanlar Düzenleme";
-            ViewBag.link = "/Default/Index";
-
             var values = featureManager.TGetByID(id);
             return View(values);
         }

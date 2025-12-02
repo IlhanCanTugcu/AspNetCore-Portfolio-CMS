@@ -10,10 +10,6 @@ namespace Core_Proje.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.v1 = "Mesajlar Listesi";
-            ViewBag.v2 = "Mesajlar";
-            ViewBag.v3 = "Mesajlar Listesi";
-            ViewBag.link = "/Message/Index";
             var values = MessageManager.TGetList();
             return View(values);
         }
