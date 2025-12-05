@@ -107,7 +107,7 @@ Projenin çalışan haline ait görüntüler aşağıdadır:
 
 **İlhan Can Tuğcu** 
 
-* [LinkedIn Profilim](http://linkedin.com/in/ilhan-can-tu%C4%9Fcu)
+* [LinkedIn Profilim](http://linkedin.com/in/ilhan-can-tugcu)
 * [GitHub Profilim](https://github.com/IlhanCanTugcu)
 
 ---
