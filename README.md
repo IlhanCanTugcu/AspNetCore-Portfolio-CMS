@@ -105,9 +105,7 @@ Projenin çalışan haline ait görüntüler aşağıdadır:
 
 ## 👨‍💻 Geliştirici
 
-**İlhan Can Tuğcu** *Bilgisayar Mühendisliği Öğrencisi*
-
-Bu proje, **BTÜ-İMEP (İşletmede Mesleki Eğitim Programı)** kapsamında, kurumsal yazılım geliştirme standartlarını öğrenmek ve uygulamak amacıyla geliştirilmiştir.
+**İlhan Can Tuğcu** 
 
 * [LinkedIn Profilim](http://linkedin.com/in/ilhan-can-tu%C4%9Fcu)
 * [GitHub Profilim](https://github.com/IlhanCanTugcu)
